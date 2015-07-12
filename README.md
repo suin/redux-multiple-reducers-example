@@ -2,6 +2,8 @@
 
 This is an example app of [redux] with multiple reducers.
 
+![](https://raw.githubusercontent.com/suin/redux-multiple-reducers-example/master/example.gif)
+
 ## How to try this
 
 ```
