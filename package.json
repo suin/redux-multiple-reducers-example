@@ -2,6 +2,7 @@
   "name": "redux-multiple-reducers-example",
   "version": "1.0.0",
   "description": "Redux Multiple Reducers Example",
+  "repository": "https://github.com/suin/redux-multiple-reducers-example",
   "dependencies": {
     "react": "^0.13.3",
     "redux": "^1.0.0-alpha"
