@@ -1,16 +1,16 @@
 import React from "react";
-import {createStore} from "redux";
+import {createRedux} from "redux";
 import {Provider} from "redux/react";
 
-import * as reducers from "reducers";
+import * as stores from "stores";
 import CounterApp from "views/containers/CounterApp";
 
-const store = createStore(reducers);
+const redux = createRedux(stores);
 
 export default class App {
   render() {
     return (
-      <Provider store={store}>
+      <Provider redux={redux}>
       {() => <CounterApp/>}
       </Provider>
     );
